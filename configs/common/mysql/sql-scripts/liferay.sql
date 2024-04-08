@@ -1,0 +1,4 @@
+CREATE USER 'liferay'@'%' IDENTIFIED BY 'liferay';
+CREATE DATABASE lportaldev CHARACTER SET utf8;
+GRANT ALL PRIVILEGES ON lportaldev.* TO 'liferay'@'%';
+FLUSH PRIVILEGES;
